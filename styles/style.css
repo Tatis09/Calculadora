@@ -16,8 +16,15 @@
   height: 70px;
   font-size: 25px;
 }
+
+.calculadora td input{
+    display:block;
+    width:70px;
+    height: 70px;
+    font-size: 25px;
+  }
 /* codigo que cambia las propiedades tipo de cuadro, alineacion del texto, de la etiqueta span nombrada con id = resultado */
-#resultado{
+#valores{
   display:block;
   text-align: center;
   font-size: 40px;

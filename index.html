@@ -12,18 +12,18 @@
     <table class="calculadora">
         <tr>
             <td colspan="4">
-                <span id="valores" name= "valores" onkeypress="return solonumeros(event)"></span>
+                <input type ="text" name="valores" id="valores" onkeypress="return solonumeros(event)">
             </td>
         </tr>
         <tr>
             <td>
-                <button id="siete" onkeypress="retornar(num)">7</button>
+                <input type="button" value ="7" onClick="retornar(value)">
             </td>
             <td>
-                <button id="ocho">8</button>
+                 <input type="button" value ="8" onClick="retornar(value)">
             </td>
             <td>
-                <button id="nueve">9</button>
+                 <input type="button" value ="9" onclick="retornar(value)">
             </td>
             <td>
                 <button id="division">/</button>
@@ -31,13 +31,13 @@
         </tr>
         <tr>
             <td>
-                <button id="cuatro">4</button>
+               <input type="button" value ="4" onClick="retornar(value)">
             </td>
             <td>
-                <button id="cinco">5</button>
+               <input type="button" value ="5" onClick="retornar(value)">
             </td>
             <td>
-                <button id="seis">6</button>
+               <input type="button" value ="6" onClick="retornar(value)">
             </td>
             <td>
                 <button id="multiplicacion">*</button>
@@ -45,13 +45,13 @@
         </tr>
         <tr>
             <td>
-                <button id="uno">1</button>
+                <input type="button" value ="1" onClick="retornar(value)">
             </td>
             <td>
-                <button id="dos">2</button>
+                 <input type="button" value ="2" onClick="retornar(value)">
             </td>
             <td>
-                <button id="tres">3</button>
+                 <input type="button" value ="3" onlick="retornar(value)">
             </td>
             <td>
                 <button id="resta">-</button>
@@ -65,7 +65,7 @@
                 <button id="reset">C</button>
             </td>
             <td>
-                <button id="cero">0</button>
+                <button id="cero" onclick="retornar(num)">0</button>
             </td>
             <td>
                 <button id="suma">+</button>
